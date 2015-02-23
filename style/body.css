@@ -1,0 +1,108 @@
+/* line 3, ../sass/body.scss */
+#background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+}
+/* line 10, ../sass/body.scss */
+#background #central-container {
+  width: 960px;
+  display: inline-block;
+  margin-top: 8%;
+}
+/* line 14, ../sass/body.scss */
+#background #central-container #text-block {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+  margin: 20px 0;
+}
+/* line 19, ../sass/body.scss */
+#background #central-container #text-block h1 {
+  font-size: 40px;
+}
+/* line 22, ../sass/body.scss */
+#background #central-container #text-block h2 {
+  font-size: 30px;
+}
+/* line 26, ../sass/body.scss */
+#background #central-container #input-block {
+  margin-top: 40px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+/* line 32, ../sass/body.scss */
+#background #central-container #input-block input, #background #central-container #input-block button {
+  padding: 7px 5px;
+  border-radius: 3px;
+  box-shadow: none;
+  margin: 7px;
+}
+/* line 38, ../sass/body.scss */
+#background #central-container #input-block input {
+  width: 23%;
+}
+/* line 41, ../sass/body.scss */
+#background #central-container #input-block button {
+  width: 15%;
+  background-color: green;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+/* line 51, ../sass/body.scss */
+#background #bottom-background {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+/* line 56, ../sass/body.scss */
+#background #bottom-background #bottom-container {
+  width: 1000px;
+  display: inline-block;
+}
+/* line 59, ../sass/body.scss */
+#background #bottom-background #bottom-container .container {
+  margin: 10px 0;
+  display: inline-block;
+  width: 33%;
+  padding: 0 15px;
+  border-right: 1px solid white;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+/* line 67, ../sass/body.scss */
+#background #bottom-background #bottom-container .container:last-child {
+  border-right: none;
+}
+/* line 70, ../sass/body.scss */
+#background #bottom-background #bottom-container .container h1 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+/* line 74, ../sass/body.scss */
+#background #bottom-background #bottom-container .container p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  text-align: left;
+}
+/* line 79, ../sass/body.scss */
+#background #bottom-background #bottom-container .container button {
+  font-size: 14px;
+  padding: 7px 5px;
+  border-radius: 3px;
+  box-shadow: none;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: black;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
